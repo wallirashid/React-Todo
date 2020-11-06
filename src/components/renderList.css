@@ -1,0 +1,31 @@
+ul.listing-styling {
+  list-style: none;
+  padding: 0px;
+}
+ul.listing-styling li {
+  background-color: #dff1d7;
+  padding: 14px;
+  border: 1px solid #dbd7d7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.danger-style,
+.success-style,
+.edit-style {
+  display: inline-block;
+  background-color: #db544d;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.success-style {
+  background-color: #58b957;
+}
+.edit-style {
+  background-color: grey;
+}

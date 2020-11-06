@@ -1,0 +1,27 @@
+.form-search {
+  padding: 30px 20px;
+  background-color: #eeeeee;
+}
+.form-search .MuiFormControl-root {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.form-search .MuiInputBase-input {
+  background-color: white;
+  padding: 10px;
+}
+.form-search .MuiButton-containedPrimary,
+.MuiButton-containedSecondary {
+  display: block;
+  width: 100%;
+}
+.form-search .MuiInput-underline:before,
+.form-search .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border: none;
+}
+.success-line {
+  text-decoration: line-through;
+}
+.without-line {
+  text-decoration: none;
+}
